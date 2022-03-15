@@ -1,0 +1,9 @@
+
+.my-80{
+    margin-bottom: 80px !important;
+    margin-top: 80px !important;
+@include breakpoint(breakMax992){
+    margin-bottom: 50px !important;
+    margin-top: 60px !important;
+}
+}
