@@ -215,4 +215,8 @@ input[type=number] {
   cursor: pointer;
 }
 
+.error {
+  color: red;
+}
+
 /*# sourceMappingURL=main.css.map */
