@@ -18,13 +18,14 @@ $( document ).ready(function() {
 // MAPS 
 
 var map = $("#maps-col");
-var findBtn = $("#find-btn");
+// var findBtn = $("#find-btn");
 var mapsBtn = $("#maps-col .primary-button");
 var mapForms = $("#map-form-col");
+var mapsFormsInputField = $("input");
 
 map.hide();
 
-findBtn.on("click", function(){
+mapsFormsInputField.on("click", function(){
 map.show(1000);
 });
 

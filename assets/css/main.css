@@ -20,6 +20,7 @@ p {
 .primary-button:hover {
   background-color: #5872a4;
   color: #fff;
+  cursor: pointer !important;
 }
 
 .secondary-button {
@@ -34,6 +35,7 @@ p {
 .secondary-button:hover {
   background-color: #434655;
   color: #fff;
+  cursor: pointer !important;
 }
 
 .my-80 {
@@ -44,6 +46,15 @@ p {
   .my-80 {
     margin-bottom: 50px !important;
     margin-top: 60px !important;
+  }
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+@media (max-width: 992px) {
+  .mb-100 {
+    margin-bottom: 60px;
   }
 }
 
@@ -278,6 +289,13 @@ input[type=number] {
 
 .error {
   color: red;
+}
+
+#map-form-col form label {
+  font-size: 20px;
+}
+#map-form-col form label input {
+  height: 48px;
 }
 
 /*# sourceMappingURL=main.css.map */

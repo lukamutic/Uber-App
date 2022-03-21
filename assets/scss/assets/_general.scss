@@ -6,7 +6,7 @@ a {
     text-decoration: none;
 }
 
-p{
+p {
     font-weight: 400;
 }
 
@@ -46,3 +46,10 @@ p{
     }
 }
 
+.mb-100 {
+    margin-bottom: 100px;
+
+    @include breakpoint(breakMax992) {
+        margin-bottom: 60px;
+    }
+}
